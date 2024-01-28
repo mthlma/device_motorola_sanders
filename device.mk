@@ -20,7 +20,8 @@ DEVICE_PATH := device/motorola/sanders
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/overlay-lineage
 
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
