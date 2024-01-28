@@ -14,9 +14,9 @@
 
 # inherit Moto G (5S) Plus device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sanders.mk
+    $(LOCAL_DIR)/lineage_sanders.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_sanders-user \
-    aosp_sanders-userdebug \
-    aosp_sanders-eng
+    lineage_sanders-user \
+    lineage_sanders-userdebug \
+    lineage_sanders-eng
