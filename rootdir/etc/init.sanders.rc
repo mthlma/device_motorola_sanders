@@ -44,3 +44,6 @@ on boot
 on post-fs-data
     mkdir /data/fpc 0700 system system
     mkdir /data/.fps 0770 system oem_5015
+    
+on init && property:ro.boot.hardware.sku=XT1802
+    setprop ro.hw.dtv true
