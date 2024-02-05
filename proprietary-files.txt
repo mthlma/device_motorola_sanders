@@ -707,6 +707,9 @@ vendor/firmware/focaltech-biel-ft5436-06-0001-sanders.bin
 vendor/firmware/focaltech-djn-ft5436-02-0001-sanders.bin
 vendor/firmware/focaltech-toptouch-ft5436-0a-0001-sanders.bin
 
+# DTV
+lib/modules/isdbt.ko
+
 # FM - from deen_sprout
 lib/libfm-hci.so
 lib64/fm_helium.so
