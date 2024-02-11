@@ -555,6 +555,14 @@ vendor/firmware/focaltech-djn-ft5436-02-0001-sanders.bin
 vendor/firmware/focaltech-toptouch-ft5436-0a-0001-sanders.bin
 
 # DTV
+-app/DTVPlayer/DTVPlayer.apk
+-app/DTVService/DTVService.apk
+etc/permissions/com.motorola.hardware.dtv.xml
+etc/permissions/mot_dtv_permissions.xml
+lib/libdtvhal.so
+lib/libdtvtuner.so
+lib64/libdtvhal.so
+lib64/libdtvtuner.so
 lib/modules/isdbt.ko
 
 # Gatekeeper - from LA.UM.8.6.r1-04700-89xx.0
@@ -583,7 +591,7 @@ vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
 
 # NFC
-vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
+vendor/firmware/libpn548ad_fw.so:vendor/firmware/libpn548ad_fw.so
 
 # SCVE
 vendor/lib/libscveBlobDescriptor.so
